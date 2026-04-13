@@ -7,7 +7,7 @@ import type {
 import type { FriendLink } from "./types/friend"
 
 export const siteConfig: SiteConfig = {
-    title: "Momo",
+    title: "雪糕小豪",
     subTitle: "Blog",
 
     favicon: "/favicon/favicon.ico", // Path of the favicon, relative to the /public directory
@@ -22,16 +22,16 @@ export const siteConfig: SiteConfig = {
     },
     comments: {
         enable: true, // Whether to enable comments
-        backendUrl: "https://api-momo.motues.top" // Backend URL for comments
+        backendUrl: "https://" // Backend URL for comments
     }
 }
 
 export const profileConfig: ProfileConfig = {
-    avatar: "assets/Motues.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    name: "Motues",
-    description: "Life is colorful!",
-    indexPage: "https://motues.top",
-    startYear: 2024,
+    avatar: "assets/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    name: "雪糕小豪",
+    description: "永远相信美好的事情即将发生",
+    indexPage: "https://xgxh.cc",
+    startYear: 2026,
 }
 
 export const licenseConfig: LicenseConfig = {
@@ -42,16 +42,16 @@ export const licenseConfig: LicenseConfig = {
 
 export const friendLinkConfig: FriendLink[] = [
     {
-        name: 'Motues',
-        avatar: 'https://avatars.githubusercontent.com/u/164032838',
-        url: 'https://motues.top',
-        description: 'Like River!'
+        name: '我的世界服务器',
+        avatar: 'https://raw.githubusercontent.com/jinliangyu1234/tu/main/server.png',
+        url: 'https://wiki.xgxh.cc',
+        description: '我的世界简单服'
     },
     {
-        name: 'Astro',
-        avatar: 'https://avatars.githubusercontent.com/u/44914786',
-        url: 'https://astro.build',
-        description: 'Build fast websites, faster.'
+        name: '领创工作室',
+        avatar: 'https://raw.githubusercontent.com/jinliangyu1234/tu/main/lc.png',
+        url: 'https://www.lacs.cc/',
+        description: '很棒的工作室'
     }
     // Add more friend links here
 ]
